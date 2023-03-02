@@ -1,0 +1,19 @@
+{
+  "name": "auto_retweet",
+  "version": "1.0.0",
+  "description": "retweet from specific keyword",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "keywords": [
+    "autoretweet"
+  ],
+  "author": "hodarihub",
+  "license": "ISC",
+  "dependencies": {
+    "needle": "^3.1.0",
+    "nodemon": "^2.0.21",
+    "twit": "^2.2.11"
+  }
+}
